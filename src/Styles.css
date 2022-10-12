@@ -1,0 +1,57 @@
+/* body{
+    height: 100vh;
+    width: 100vw;
+} */
+
+.sm_nav_css{
+    background-image: linear-gradient(to right, rgb(243, 17, 243), rgb(235, 18, 54));
+    color: white;
+}
+
+.sm_nav_css .nav_main_text{
+    color: white;
+
+}
+.btn_sm{
+    width: 80%;
+    margin: auto;
+    padding: 12px;
+    border-radius: 12px;
+    background-image: linear-gradient(to right, rgb(243, 17, 243), rgb(235, 18, 54));
+    color: white;
+    border: none;
+    font-size: larger;
+}
+
+.btn_sm:hover{
+    background-image: linear-gradient(to right, rgb(237, 15, 204), rgb(246, 247, 241));
+    color: white;
+}
+
+.Meme{
+    height: 30rem;
+    width: 50%;
+    margin: auto;
+   
+}
+
+.MemeImage{
+  height: 50%;
+  width:50%;
+  border: 1px solid black;
+  /* margin:  auto; */
+  display: block;
+  border-radius: 12px;
+  z-index: -1;
+  position:absolute;
+
+}
+.Toptext{
+    /* position: absolute; */
+    z-index: 6;
+    margin: 0px auto;
+    /* margin-bottom: 50rem; */
+    color: black;
+    text-shadow: 2px black;
+    font-size: 55px;
+}
